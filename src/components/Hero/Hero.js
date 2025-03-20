@@ -5,6 +5,7 @@ const Hero = () => {
   const heroRef = useRef(null);
 
   useEffect(() => {
+    const element = heroRef.current;
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
@@ -16,13 +17,13 @@ const Hero = () => {
       }
     );
 
-    if (heroRef.current) {
-      observer.observe(heroRef.current);
+    if (element) {
+      observer.observe(element);
     }
 
     return () => {
-      if (heroRef.current) {
-        observer.unobserve(heroRef.current);
+      if (element) {
+        observer.unobserve(element);
       }
     };
   }, []);
