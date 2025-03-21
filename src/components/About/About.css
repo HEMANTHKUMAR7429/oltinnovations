@@ -16,10 +16,14 @@
 }
 
 .about-paragraph {
+  margin-top: 6rem;
   margin-bottom: 1.5rem;
   opacity: 0;
   transform: translateY(20px);
   animation: fadeInUp 0.8s ease-out forwards;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #384959;
 }
 
 .about-paragraph.primary {
@@ -97,22 +101,44 @@
     padding: 4rem 0;
   }
 
+  .about-paragraph {
+    margin-top: 5rem;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
   .about-paragraph.primary {
-    font-size: 4rem;
+    font-size: 1.1rem;
   }
 
   .about-paragraph.secondary {
-    font-size: 4rem;
+    font-size: 1.1rem;
   }
 
   .about-description {
-    font-size: 1.8rem;
+    font-size: 1.1rem;
     line-height: 1.6;
+    margin-top: 4rem;
   }
 
   .features-grid {
     grid-template-columns: 1fr;
     max-width: 400px;
     margin: 2rem auto 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .about {
+    padding: 3rem 0;
+  }
+
+  .about-paragraph {
+    margin-top: 4rem;
+    font-size: 0.95rem;
+  }
+
+  .about-description {
+    margin-top: 3rem;
   }
 } 

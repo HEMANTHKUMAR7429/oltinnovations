@@ -118,6 +118,11 @@
   .team-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .team-member {
+    padding: 1.5rem;
   }
 
   .team-member-image {
@@ -151,6 +156,14 @@
   .team-member-image {
     width: 100px;
     height: 100px;
+  }
+
+  .team-member-name {
+    font-size: 1rem;
+  }
+
+  .team-member-role {
+    font-size: 0.8rem;
   }
 }
 
