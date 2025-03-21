@@ -129,6 +129,10 @@
 }
 
 @media (max-width: 768px) {
+  .reach-us {
+    padding: 4rem 0;
+  }
+
   .reach-us-content {
     grid-template-columns: 1fr;
     gap: 2rem;
@@ -137,15 +141,30 @@
   .reach-us-info {
     padding-right: 0;
   }
+
+  .reach-us-form {
+    padding: 1.5rem;
+  }
 }
 
 @media (max-width: 480px) {
   .reach-us {
-    padding: 4rem 0;
+    padding: 3rem 0;
   }
 
   .reach-us-form {
-    padding: 1.5rem;
+    padding: 1.25rem;
+  }
+
+  .contact-item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .contact-item i {
+    margin-right: 0;
+    margin-bottom: 0.5rem;
   }
 }
 

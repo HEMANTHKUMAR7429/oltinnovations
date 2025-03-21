@@ -53,7 +53,6 @@ const ReachUs = () => {
         <h2 className="section-title">Reach Us</h2>
         <div className="reach-us-content">
           <div className="reach-us-info">
-            <h3>Get in Touch</h3>
             <p>Have a question or want to collaborate? We'd love to hear from you!</p>
             
             <div className="contact-info">

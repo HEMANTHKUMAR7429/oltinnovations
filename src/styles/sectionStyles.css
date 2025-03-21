@@ -1,0 +1,36 @@
+.section-title {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 3rem;
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  background: linear-gradient(90deg, #07e782, #00bcd4);
+  border-radius: 2px;
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+} 
