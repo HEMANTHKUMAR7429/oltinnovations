@@ -18,9 +18,10 @@
   box-shadow: 0 4px 6px rgba(56, 73, 89, 0.1);
   transition: all 1.2s ease;
   flex: 1;
-  min-width: 500px;
+  min-width: 300px;
   max-width: 600px;
   text-align: center;
+  margin: 1rem;
 }
 
 .milestone-card:hover {
@@ -38,11 +39,13 @@
 .milestone-achievement {
   color: #384959;
   line-height: 1.6;
+  font-size: 1.1rem;
 }
+
 .milestone-logo {
   width: 120px;
   height: 120px;
-  margin-bottom: 1rem;
+  margin: 0 auto 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -56,16 +59,48 @@
 
 @media (max-width: 768px) {
   .milestones {
-    padding: 4rem 0;
+    padding: 4rem 1rem;
   }
 
   .milestones-container {
     flex-direction: column;
     align-items: center;
+    gap: 1.5rem;
   }
 
   .milestone-card {
     width: 100%;
-    max-width: 350px;
+    min-width: unset;
+    max-width: 100%;
+    margin: 0;
+    padding: 1.5rem;
+  }
+
+  .milestone-logo {
+    width: 100px;
+    height: 100px;
+  }
+
+  .milestone-year {
+    font-size: 1.3rem;
+  }
+
+  .milestone-achievement {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .milestones {
+    padding: 3rem 1rem;
+  }
+
+  .milestone-card {
+    padding: 1.25rem;
+  }
+
+  .milestone-logo {
+    width: 80px;
+    height: 80px;
   }
 } 

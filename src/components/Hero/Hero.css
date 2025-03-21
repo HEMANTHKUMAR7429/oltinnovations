@@ -1,7 +1,7 @@
 .hero {
   height: 100vh;
   position: relative;
-  background: linear-gradient(135deg, #000000, #000000);
+  background: #07e782;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,7 +28,7 @@
   position: relative;
   z-index: 2;
   text-align: center;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .hero-title {
@@ -58,11 +58,37 @@
 }
 
 @media (max-width: 768px) {
+  .hero {
+    height: auto;
+    min-height: 100vh;
+    padding: 60px 20px;
+  }
+
   .hero-title {
     font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    padding: 0 15px;
   }
   
   .hero-mission {
     font-size: 1.1rem;
+    padding: 0 15px;
+    line-height: 1.5;
+  }
+
+  .container {
+    padding: 0 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-mission {
+    font-size: 1rem;
+    max-width: 100%;
   }
 } 
