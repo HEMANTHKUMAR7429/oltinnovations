@@ -116,26 +116,43 @@
   }
 
   .team-grid {
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
   }
 
   .team-member-image {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
   }
 
   .team-member-name {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 
   .team-member-role {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   .team-member-description {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
   }
 }
 
+@media (max-width: 480px) {
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .team-card {
+    padding: 1rem;
+  }
+
+  .team-member-image {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css'); 
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css'); 

@@ -10,30 +10,17 @@ const Projects = () => {
       title: 'Track Inspection Robot',
       description: 'AI-powered railway maintenance and theft prevention robot. Advanced sensors and machine learning algorithms for real-time track monitoring and anomaly detection.',
       icon: '🤖',
-      status: 'active'
+      status: 'in-progress'
     },
     {
       id: 2,
       title: 'Smart Bike Key Reminder',
       description: 'IoT-based key safety device for bikers. Intelligent reminder system with mobile connectivity and location tracking features.',
       icon: '🔑',
-      status: 'active'
+      status: 'in-progress'
     },
    
-    {
-      id: 6,
-      title: 'AI Models for Railway Systems',
-      description: 'Advanced AI models for predictive maintenance and safety enhancement in railway operations.',
-      icon: '🚂',
-      status: 'in-progress'
-    },
-    {
-      id: 7,
-      title: 'Enhanced Safety Features for Smart Bike Key Reminders',
-      description: 'Next-generation safety features incorporating user feedback and advanced IoT capabilities.',
-      icon: '🏍️',
-      status: 'in-progress'
-    }
+    
   ];
 
   return (

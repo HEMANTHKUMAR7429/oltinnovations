@@ -12,6 +12,9 @@ const Header = () => {
     <header className="header">
       <div className="header-container">
         <div className="logo">
+          <div className="logo-image">
+            <img src="/images/logo olt.jpg" alt="OLT Innovations Logo" />
+          </div>
           <h1>OLT Innovations</h1>
         </div>
         <button 
