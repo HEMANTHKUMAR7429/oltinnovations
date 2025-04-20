@@ -34,14 +34,14 @@ const Team = () => {
       linkedin: 'https://www.linkedin.com/in/a-pavan-kumar-2815b925b/' // Add LinkedIn URL here
     },
     {
-      name: 'K Narasimha Raju',
+      name: 'Dr.K Narasimha Raju',
       role: 'Director',
       description: 'Professor at KLEF Deemed To Be University',
       image: '/images/image-4.jpg',
       linkedin: 'https://www.linkedin.com/in/dr-kuthuri-narasimha-raju/' // Add LinkedIn URL here
     },
     {
-      name: 'Kalyan D',
+      name: 'Dr.Kalyan D',
       role: 'Director',
       description: 'Professor at KLEF Deemed To Be University.',
       image: '/images/image-7.jpg',
