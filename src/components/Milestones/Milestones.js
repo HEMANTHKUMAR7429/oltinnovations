@@ -16,7 +16,7 @@ const Milestones = () => {
     {
       year: '2025',
       achievement: 'Secured ₹10 Lakhs from IIT BHILAI INNOVATION AND TECHNOLOGY FOUNDATION (IBITF)',
-      logo: '/images/klu-logo.jpg' // Placeholder image path
+      logo: '/images/iit@.2551f259842b850fff65.png' // Placeholder image path
     }
   ];
 
