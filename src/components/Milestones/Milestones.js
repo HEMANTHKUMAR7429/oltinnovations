@@ -5,7 +5,7 @@ const Milestones = () => {
   const milestones = [
     {
       year: '2024',
-      achievement: 'Received ₹2.5 Lakhs from Kalpataru CoE, STPI Vizag',
+      achievement: 'Received ₹4 Lakhs from Kalpataru CoE, STPI Vizag',
       logo: '/images/kalpataru-logo.png' // Placeholder image path
     },
     {
